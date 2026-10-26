@@ -1,5 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="ChainPulse: interactive BFS/DFS explorer for transaction propagation in a peer-to-peer blockchain network.">
 <title>ChainPulse Explorer</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
 <style>
@@ -22,6 +27,8 @@
   --offline:#4A5266; --danger:#E26467; --edge:#323A4D; --tree:#F0A73A; color-scheme:dark}
 
 *{box-sizing:border-box}
+body{margin:0}
+[hidden]{display:none!important}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.5;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
 .wrap{max-width:1240px;margin:0 auto;display:grid;gap:16px}
@@ -91,6 +98,8 @@ svg .node .ring{fill:none;stroke:var(--danger);stroke-width:2;stroke-dasharray:3
 svg .node .cur{fill:none;stroke:var(--accent);stroke-width:3}
 @media (prefers-reduced-motion: reduce){svg .node circle{transition:none}}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header>
@@ -389,3 +398,6 @@ regen(false);
 for(let i=0;i<4;i++)step();
 })();
 </script>
+
+</body>
+</html>
