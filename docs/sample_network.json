@@ -1,0 +1,399 @@
+{
+  "nodes": [
+    {
+      "id": "N00",
+      "type": "miner",
+      "region": "IN",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N01",
+      "type": "full",
+      "region": "DE",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N02",
+      "type": "light",
+      "region": "SG",
+      "online": true,
+      "relays": false
+    },
+    {
+      "id": "N03",
+      "type": "full",
+      "region": "IN",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N04",
+      "type": "full",
+      "region": "UK",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N05",
+      "type": "full",
+      "region": "JP",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N06",
+      "type": "light",
+      "region": "SG",
+      "online": true,
+      "relays": false
+    },
+    {
+      "id": "N07",
+      "type": "full",
+      "region": "SG",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N08",
+      "type": "full",
+      "region": "BR",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N09",
+      "type": "full",
+      "region": "SG",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N10",
+      "type": "full",
+      "region": "US",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N11",
+      "type": "full",
+      "region": "SG",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N12",
+      "type": "full",
+      "region": "JP",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N13",
+      "type": "full",
+      "region": "IN",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N14",
+      "type": "light",
+      "region": "BR",
+      "online": true,
+      "relays": false
+    },
+    {
+      "id": "N15",
+      "type": "full",
+      "region": "US",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N16",
+      "type": "miner",
+      "region": "AE",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N17",
+      "type": "full",
+      "region": "SG",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N18",
+      "type": "full",
+      "region": "SG",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N19",
+      "type": "miner",
+      "region": "IN",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N20",
+      "type": "exchange",
+      "region": "JP",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N21",
+      "type": "full",
+      "region": "JP",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N22",
+      "type": "full",
+      "region": "DE",
+      "online": true,
+      "relays": true
+    },
+    {
+      "id": "N23",
+      "type": "full",
+      "region": "IN",
+      "online": true,
+      "relays": true
+    }
+  ],
+  "edges": [
+    {
+      "a": "N00",
+      "b": "N01",
+      "latency_ms": 38.0
+    },
+    {
+      "a": "N00",
+      "b": "N02",
+      "latency_ms": 51.1
+    },
+    {
+      "a": "N00",
+      "b": "N03",
+      "latency_ms": 130.7
+    },
+    {
+      "a": "N00",
+      "b": "N04",
+      "latency_ms": 41.3
+    },
+    {
+      "a": "N00",
+      "b": "N07",
+      "latency_ms": 151.9
+    },
+    {
+      "a": "N00",
+      "b": "N13",
+      "latency_ms": 81.2
+    },
+    {
+      "a": "N01",
+      "b": "N02",
+      "latency_ms": 19.9
+    },
+    {
+      "a": "N01",
+      "b": "N05",
+      "latency_ms": 172.9
+    },
+    {
+      "a": "N01",
+      "b": "N09",
+      "latency_ms": 89.8
+    },
+    {
+      "a": "N01",
+      "b": "N17",
+      "latency_ms": 40.2
+    },
+    {
+      "a": "N02",
+      "b": "N03",
+      "latency_ms": 133.1
+    },
+    {
+      "a": "N02",
+      "b": "N04",
+      "latency_ms": 140.2
+    },
+    {
+      "a": "N02",
+      "b": "N06",
+      "latency_ms": 114.6
+    },
+    {
+      "a": "N02",
+      "b": "N11",
+      "latency_ms": 55.4
+    },
+    {
+      "a": "N02",
+      "b": "N15",
+      "latency_ms": 107.6
+    },
+    {
+      "a": "N03",
+      "b": "N07",
+      "latency_ms": 106.1
+    },
+    {
+      "a": "N03",
+      "b": "N08",
+      "latency_ms": 26.5
+    },
+    {
+      "a": "N03",
+      "b": "N09",
+      "latency_ms": 77.7
+    },
+    {
+      "a": "N03",
+      "b": "N13",
+      "latency_ms": 147.8
+    },
+    {
+      "a": "N03",
+      "b": "N14",
+      "latency_ms": 97.4
+    },
+    {
+      "a": "N03",
+      "b": "N17",
+      "latency_ms": 41.4
+    },
+    {
+      "a": "N03",
+      "b": "N19",
+      "latency_ms": 138.9
+    },
+    {
+      "a": "N04",
+      "b": "N05",
+      "latency_ms": 70.5
+    },
+    {
+      "a": "N04",
+      "b": "N15",
+      "latency_ms": 55.7
+    },
+    {
+      "a": "N04",
+      "b": "N22",
+      "latency_ms": 140.8
+    },
+    {
+      "a": "N05",
+      "b": "N06",
+      "latency_ms": 148.2
+    },
+    {
+      "a": "N05",
+      "b": "N08",
+      "latency_ms": 124.1
+    },
+    {
+      "a": "N05",
+      "b": "N10",
+      "latency_ms": 49.6
+    },
+    {
+      "a": "N05",
+      "b": "N16",
+      "latency_ms": 179.6
+    },
+    {
+      "a": "N05",
+      "b": "N20",
+      "latency_ms": 172.4
+    },
+    {
+      "a": "N05",
+      "b": "N21",
+      "latency_ms": 32.6
+    },
+    {
+      "a": "N08",
+      "b": "N12",
+      "latency_ms": 68.5
+    },
+    {
+      "a": "N09",
+      "b": "N10",
+      "latency_ms": 59.1
+    },
+    {
+      "a": "N09",
+      "b": "N11",
+      "latency_ms": 103.1
+    },
+    {
+      "a": "N10",
+      "b": "N12",
+      "latency_ms": 51.2
+    },
+    {
+      "a": "N10",
+      "b": "N14",
+      "latency_ms": 161.0
+    },
+    {
+      "a": "N10",
+      "b": "N23",
+      "latency_ms": 33.5
+    },
+    {
+      "a": "N11",
+      "b": "N22",
+      "latency_ms": 104.0
+    },
+    {
+      "a": "N12",
+      "b": "N16",
+      "latency_ms": 51.2
+    },
+    {
+      "a": "N12",
+      "b": "N18",
+      "latency_ms": 113.3
+    },
+    {
+      "a": "N13",
+      "b": "N20",
+      "latency_ms": 89.9
+    },
+    {
+      "a": "N16",
+      "b": "N21",
+      "latency_ms": 98.8
+    },
+    {
+      "a": "N17",
+      "b": "N18",
+      "latency_ms": 92.2
+    },
+    {
+      "a": "N17",
+      "b": "N19",
+      "latency_ms": 141.8
+    },
+    {
+      "a": "N19",
+      "b": "N23",
+      "latency_ms": 95.6
+    }
+  ]
+}
